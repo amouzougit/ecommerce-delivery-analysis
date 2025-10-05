@@ -1,0 +1,19 @@
+# --- Environnement virtuel ---
+venv/
+.env/
+
+# --- Données brutes ---
+data/
+artifacts/
+*.parquet
+*.csv
+*.zip
+
+# --- Fichiers temporaires ---
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+
+# --- VS Code / OS files ---
+.vscode/
