@@ -21,26 +21,6 @@ It covers:
 4. 🤖 *(Next step)* Model training to predict late deliveries.  
 5. 🖥️ *(Future)* Streamlit dashboard for interactive visualization.
 
----
-
-## 🧱 Repository Structure
-
-olist-delivery-risk/
-│
-├── data/ # raw datasets (ignored in .gitignore)
-├── artifacts/ # saved parquet & models (ignored)
-├── notebooks/
-│ ├── 00_setup_data_load.ipynb # Load & merge all Olist datasets
-│ ├── 01_cleaning_EDA.ipynb # Cleaning, EDA & correlations ✅
-│ ├── 02_model_evaluation.ipynb # (Next) Predictive model
-│
-├── requirements.txt # Python dependencies
-├── .gitignore # excludes data, artifacts, venv
-└── README.md # this file
-
-
----
-
 ## ⚙️ Tech Stack
 
 | Category | Tools |
